@@ -31,7 +31,7 @@
         echo '<p><b> You Forgot to Enter Your Emails! </b></p>';
     }
 
-    if (strlen($_POST["gender"])) {
+    if (isset($_POST["gender"])) {
         if($_POST["gender"] == 'M') {
          $message = '<b><p>Good Day, Sir </b></p>';
         }
