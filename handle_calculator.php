@@ -25,7 +25,7 @@
         }else{
             echo "<p><b>You have accessed this page inappropriately!</b></p>";
         }
-    }
+    
 
 
 ?>
